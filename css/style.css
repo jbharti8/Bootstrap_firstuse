@@ -1,0 +1,43 @@
+.header{
+    height: 120vh;
+    background-image: url("./inspiration-geometry.png");
+    background-color: #6900c7!important;
+    clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 100% 88%);
+}
+.nav-link{
+    color: rgb(134, 133, 133);
+    font-weight: 500;
+}
+.nav-link:hover{
+    color:black;
+}
+#menu ul{
+    list-style-type: none;
+    padding-left: 0%;
+}
+#menu ul li{
+    padding-top: 5px;
+    font-weight: 400;
+}
+#menu a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(182, 177, 177);
+}
+#menu li a:hover{
+    color: rgb(121, 119, 119);
+}
+.menu-c1{
+    color: rgb(182, 177, 177);
+    font-weight: 500;
+}
+.fa{
+    color: rgb(182, 177, 177);
+    padding: 0px 5px;
+}
+.ftr-head{
+    margin-top: 10px;
+    color: rgb(121, 119, 119);
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
