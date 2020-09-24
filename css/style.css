@@ -1,8 +1,8 @@
-.header{
-    height: 120vh;
-    background-image: url("./inspiration-geometry.png");
-    background-color: #6900c7!important;
-    clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 100% 88%);
+header{
+    height: 130vh;
+    background-color: #7310ca;
+    clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 100% 90%);
+    padding-top: 8rem;
 }
 .nav-link{
     color: rgb(134, 133, 133);
@@ -30,6 +30,32 @@
     color: rgb(182, 177, 177);
     font-weight: 500;
 }
+.smbtn {
+    color: #6900c7;
+    display: inline-block;
+    font-size: 75%;
+    font-weight: 700;
+    text-align: center;
+    background-color: #cbb8e7;
+    padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10rem;
+}
+.smbtn-m {
+    padding: 8px 12px;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    background-color: #d4aff5;
+    border-radius: 40px;
+}
+.card1-body{
+    height: 280px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(229, 229, 245), -10px -10px 10px rgb(229, 229, 245);
+}
 .fa{
     color: rgb(182, 177, 177);
     padding: 0px 5px;
@@ -40,4 +66,14 @@
     font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
+}
+.downbg{
+    height: 65rem;
+    clip-path: polygon(100% 0%, 0% 10%, 0% 100%, 100% 90%);
+    background-color: #eff3f9;
+    }
+.down{
+    position: absolute;
+    margin-top: -62rem;
+    padding: 10rem 15rem;
 }
