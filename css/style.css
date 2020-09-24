@@ -30,10 +30,26 @@ header{
     color: rgb(182, 177, 177);
     font-weight: 500;
 }
+.card-header{
+    font-weight: bold ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #6900c7;
+    background-color: rgb(231, 231, 243);
+}
+.sm{
+    font-family: sans-serif;
+    font-size: 100%;
+    color: rgb(75, 73, 82);
+}
+.rounded-pill{
+    border: 1.5px solid rgb(224, 219, 219);}
+.b{
+    background-image: linear-gradient(60deg, rgb(240, 240, 248),white);
+}
 .smbtn {
     color: #6900c7;
     display: inline-block;
-    font-size: 75%;
+    font-size: 80%;
     font-weight: 700;
     text-align: center;
     background-color: #cbb8e7;
@@ -68,12 +84,12 @@ header{
     font-weight: bolder;
 }
 .downbg{
-    height: 65rem;
+    height: 60rem;
     clip-path: polygon(100% 0%, 0% 10%, 0% 100%, 100% 90%);
     background-color: #eff3f9;
     }
 .down{
     position: absolute;
-    margin-top: -62rem;
+    margin-top: -60rem;
     padding: 10rem 15rem;
 }
